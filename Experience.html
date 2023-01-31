@@ -1,0 +1,134 @@
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 10px;
+  background: darkmagenta;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 40px;
+  text-align: center;
+  background: darksalmon;
+}
+
+.header h1 {
+  font-size: 20px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: darkmagenta;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: darkkhaki;
+  text-align: center;
+  padding: 12px 17px;
+  text-decoration: double;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: honeydew;
+  color: dodgerblue;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 100%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 100%;
+  background-color: darkmagenta;
+  padding-left: 10px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: blue;
+  width: 100%;
+  padding: 30px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #D0c6;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: lavender;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <fontface="times new roman color="black" size="12"> 
+  <h1><b>NIK FAZLIEN WEBSITE</b></h1>
+    </fontface>
+</div>
+
+<div class="topnav">
+    <a href="index.html">Homepage</a>
+  <a href="Biodata.html">Biodata</a>
+  <a href="Experience.html">Experience</a>
+  <a href="Education.html">Education</a>
+  <a href="Family.html">Family</a>
+  <a href="Gallery.html">Gallery</a>
+   </div>
+    <center>
+        <b><font color="black" size="15" face="Times new roman"> Experiences </font></b> </center>
+    <br><br>
+    <center>
+  <img src = "Images/photo_2023-01-24_17-51-42.jpg" width= "50%">
+    <p>Joined Parade Cgames</p><br>       
+<img src = "Images/photo_2023-01-24_18-06-06.jpg" width= "50%">
+    <p>Joined Econ-biz Programme.</p><br>
+    </center>
+</div>
+</body></html>
